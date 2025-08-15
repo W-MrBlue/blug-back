@@ -1,0 +1,17 @@
+system:
+  domain: demo
+  version: 1.0
+  appEnv: "test"
+  httpPort: ":8080"
+  host: "localhost"
+
+redis:
+  redisDbName: 1
+  redisHost: 127.0.0.1
+  redisPort: 6379
+  redisPassword: 123456
+  redisNetwork: tcp
+
+jwt:
+  secret: "非常神秘的一个字符串"
+  lifespan: 72 #hours
